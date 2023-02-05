@@ -3,7 +3,7 @@ export default createApp({
   name: "launcher",
   title: "Launcher",
   icon: "/src/logo.png",
-  src: {
+  app: {
     basedir: "build",
     index: "index.js",
   },

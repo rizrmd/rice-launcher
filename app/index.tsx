@@ -9,13 +9,13 @@ app.register("launcher", async () => {
       el,
       <div
         className={css`
-          height: 100%;  
+          height: 100%;
         `}
       >
+        pasadena
       </div>
     );
   });
-  // await frame.create({ width: "640px", height: "480px", title: "Halo" });
 });
 
 const renderRoot = (el: HTMLDivElement, node: ReactNode) => {
