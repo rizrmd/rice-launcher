@@ -1,18 +1,23 @@
-import { css } from "goober";
 import { ReactNode } from "react";
 import { createRoot } from "react-dom/client";
-import { app, bar } from "rice";
+import { app, bar, cx, css, importCSS } from "rice";
+import "./index.css";
 
 app.register("launcher", async () => {
+  importCSS("launcher", "index.css");
+
   await bar.create((el) => {
     renderRoot(
       el,
       <div
-        className={css`
-          height: 100%;
-        `}
+        className={cx(
+          "flex flex-1 items-center bg-blue-400 rounded-md",
+          css`
+            padding: 0px 10px;
+          `
+        )}
       >
-        pasadena
+        Cobaan nya{" "}
       </div>
     );
   });
