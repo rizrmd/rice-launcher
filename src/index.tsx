@@ -1,7 +1,7 @@
 import { css } from "goober";
 import { ReactNode } from "react";
 import { createRoot } from "react-dom/client";
-import { app, bar, cx } from "rice";
+import { app, bar } from "rice";
 
 app.register("launcher", async () => {
   await bar.create((el) => {
