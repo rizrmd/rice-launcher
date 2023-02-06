@@ -1,4 +1,3 @@
-import { createApp } from "rice";
 export default createApp({
   name: "launcher",
   title: "Launcher",

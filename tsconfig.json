@@ -22,7 +22,7 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "../../../../core/rice/src/index.tsx"
+    "../../core/rice/src/types.ts"
   ],
   "exclude": [
     "node_modules"
